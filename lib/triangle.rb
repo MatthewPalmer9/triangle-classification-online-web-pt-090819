@@ -11,7 +11,7 @@ class Triangle
       raise TriangleError
   end
 
-  class Triangle < StandardError
+  class TriangleError < StandardError
     def message
       "That is an invalid triangle."
     end
